@@ -1,0 +1,22 @@
+TGY — Yalnız Python ile çalıştırma
+
+1. ZIP dosyasının tamamını bir klasöre çıkarın.
+2. Python 3.12 veya daha yeni bir sürüm kurulu olmalıdır (3.12 ile doğrulandı).
+3. Windows: BASLAT.bat dosyasına çift tıklayın.
+   Alternatif: klasörde terminal açıp py baslat.py çalıştırın.
+   macOS / Linux: klasörde terminal açıp python3 baslat.py çalıştırın.
+4. İlk açılışta Python bağımlılıkları internetten otomatik kurulur.
+   Node.js veya npm gerekmez. Derlenmiş web arayüzü dist klasöründedir.
+5. Tarayıcı otomatik açılır. Açılmazsa http://127.0.0.1:8765 adresine gidin.
+6. Sağ üstten Demo · Geçici seçerek örnek verilerle deneyebilirsiniz.
+7. Gerçek veriler alanında Excel yükleyebilir ve kalıcı kayıt yapabilirsiniz.
+8. Terminal açık kalmalıdır. Durdurmak için Ctrl+C kullanın.
+
+Veriler: backend/data/tgy.db
+Bu dosyayı silmeyin. Güncelleme yaparken mevcut backend/data klasörünüzü koruyun.
+Tam yedek: .venv\Scripts\python.exe scripts\backup.py (Windows)
+           .venv/bin/python scripts/backup.py (macOS/Linux)
+
+Not: Bu yerel kullanım sürümüdür; kullanıcı giriş/yetki sistemi yoktur.
+Paket kaynak kodu, derlenmiş arayüzü ve kurulum yönergelerini içerir.
+Gerçek kurumsal kayıtlar veya bu makineye ait .venv pakete dahil edilmez.

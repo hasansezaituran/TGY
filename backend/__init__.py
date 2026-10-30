@@ -1,0 +1,1 @@
+"""TGY kalıcı uygulama sunucusu."""
